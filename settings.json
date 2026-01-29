@@ -1,0 +1,154 @@
+{
+    "[cpp]": {
+        "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
+    },
+    "C_Cpp.clang_format_fallbackStyle": "LLVM",
+    "C_Cpp.inlayHints.autoDeclarationTypes.enabled": true,
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "C_Cpp.intelliSenseUpdateDelay": 500,
+    "clangd.arguments": [
+        "-header-insertion=never"
+    ],
+    "clangd.detectExtensionConflicts": false,
+    "cmake.languageSupport.dotnetPath": "dotnet",
+    "debug.allowBreakpointsEverywhere": true,
+    "diffEditor.codeLens": true,
+    "diffEditor.ignoreTrimWhitespace": true,
+    "editor.cursorSurroundingLines": 8,
+    "editor.fontFamily": "\"Jetbrains Mono\"",
+    "editor.fontLigatures": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "modificationsIfAvailable",
+    "editor.lineNumbers": "relative",
+    "editor.minimap.enabled": false,
+    "editor.rulers": [
+        80,
+        100
+    ],
+    "editor.wordWrapColumn": 100,
+    "explorer.confirmDelete": false,
+    "extensions.ignoreRecommendations": true,
+    "files.associations": {
+        "*.ll": "llvm"
+    },
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "geminicodeassist.displayInlineContextHint": false,
+    "geminicodeassist.inlineSuggestions.enableAuto": true,
+    "geminicodeassist.project": "celtic-xylocarp-2q6tl",
+    "git.blame.editorDecoration.enabled": true,
+    "github.copilot.chat.codesearch.enabled": true,
+    "github.copilot.enable": {
+        "*": false
+    },
+    "gitlens.advanced.messages": {
+        "suppressGitVersionWarning": true
+    },
+    "print.colourScheme": "Atom One",
+    "print.filepathHeadingForIndividuallyPrintedDocuments": false,
+    "print.folder.exclude": [
+        "{bin,obj,out}",
+        "node_modules",
+        "data",
+        "**/*.{bin,exe,dll,hex,pdb,pdf,pfx,png,jpg,gif,bmp,suo,design}"
+    ],
+    "print.folder.fileNames": true,
+    "print.folder.include": [],
+    "print.folder.includeFileList": false,
+    "print.folder.maxFiles": 30,
+    "print.folder.maxLines": 1200,
+    "print.general.filepathHeadingForIndividuallyPrintedDocuments": false,
+    "print.lineNumbers": "on",
+    "print.sourcecode.colourScheme": "Atom One",
+    "print.sourcecode.lineNumbers": "on",
+    "rust-analyzer.check.command": "clippy",
+    "rust-analyzer.debug.engineSettings": {},
+    "rust-analyzer.semanticHighlighting.strings.enable": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "terminal.integrated.inheritEnv": false,
+    "terminal.integrated.scrollback": 1000000,
+    "update.mode": "none",
+    "vim.highlightedyank.enable": true,
+    "vim.normalModeKeyBindings": [
+        {
+            "before": [
+                "g",
+                "p",
+                "d"
+            ],
+            "commands": [
+                "editor.action.peekDefinition"
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "h"
+            ],
+            "commands": [
+                "editor.action.showDefinitionPreviewHover"
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "i"
+            ],
+            "commands": [
+                "editor.action.goToImplementation"
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "p",
+                "i"
+            ],
+            "commands": [
+                "editor.action.peekImplementation"
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "q"
+            ],
+            "commands": [
+                "editor.action.quickFix"
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "r"
+            ],
+            "commands": [
+                "editor.action.referenceSearch.trigger"
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "t"
+            ],
+            "commands": [
+                "editor.action.goToTypeDefinition"
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "p",
+                "t"
+            ],
+            "commands": [
+                "editor.action.peekTypeDefinition"
+            ]
+        }
+    ],
+    "vim.useSystemClipboard": true,
+    "vsicons.dontShowNewVersionMessage": true,
+    "window.restoreWindows": "none",
+    "workbench.colorTheme": "One Monokai",
+    "workbench.iconTheme": "vscode-icons"
+}
